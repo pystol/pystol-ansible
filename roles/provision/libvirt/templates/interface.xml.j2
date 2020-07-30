@@ -1,5 +1,6 @@
 <interface type='network'>
-  <source network='{{ item.eth0.net }}' dev='{{ item.eth0.devicename }}'/>
+  <guest dev='{{ item.eth0.devicename }}'/>
+  <source network='{{ item.eth0.net }}'/>
   <model type='virtio'/>
   <mac address='{{ item.eth0.mac }}'/>
 </interface>
