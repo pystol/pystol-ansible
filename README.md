@@ -20,60 +20,7 @@
 | [![E2E install](https://github.com/pystol/pystol/workflows/e2einstall/badge.svg?event=push)](https://github.com/pystol/pystol/actions?workflow=e2einstall) | | | | | |
 | [![Pypi publish](https://github.com/pystol/pystol/workflows/pypipublish/badge.svg?event=push)](https://github.com/pystol/pystol/actions?workflow=pypipublish) | | | | | |
 
-## Running Pystol
+## Moved permanently
 
-The easiest way to execute Pystol in a Kubernetes-based cluster is:
-
-```
-pip install pystol # Install the operator using a pypi package
-pystol -b # Print the Pystol banner
-pystol -v # Print the installed version
-pystol deploy # Install Pystol in the cluster
-# Run the pingtest action.
-pystol run --namespace pystol \
-           --collection actions \
-           --role pingtest
-pystol --help # Run the help for further information
-```
-
-## Documentation
-
-Please refer to the [official documentation](https://docs.pystol.org)
-website for any information related to the project.
-
-## CI dashboard
-
-Pystol uses **GitHub actions**
-and **badges** to run all the CI
-tasks, the result of running these
-tasks is represented using badges.
-
-In particular we embrace the use of
-CI dashboard as information radiators.
-
-We created the [badgeboad project](https://badgeboard.pystol.org)
-to show the value of any set of badges as a dashboard.
-
-For more information you can open the
-[CI dashboard](https://badgeboard.pystol.org)
-directly or go to the
-[project page in GitHub](https://github.com/pystol/badgeboard).
-
-## Container images
-
-All pystol official container images are hosted in Quay.io under
-the [Pystol organization](https://quay.io/organization/pystol).
-
-There you will find two repositories:
-
-* The Pystol [staging repository](https://quay.io/repository/pystol/pystol-operator-staging).
-Here you will find all the container images from the upstream end-to-end jobs from the GitHub
-Actions jobs.
-
-* The Pystol [stable repository](https://quay.io/repository/pystol/pystol-operator-stable).
-Here you will find all the container images from the stable branches.
-
-## License
-
-Pystol is open source software
-licensed under the [Apache license](LICENSE).
+Due to the size of this project, this project has its own organization.
+Please refer to the [kubeinit](https://kubeinit.com) project page.
